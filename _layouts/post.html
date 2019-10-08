@@ -6,4 +6,6 @@ layout: default
 
 {{ content }}
 
+{% if site.google_ad_client and jekyll.environment == 'production' %}
 {% include advertisements.html %}
+{% endif %}

@@ -10,10 +10,6 @@
   {% include analytics.html %}
   {% endif %}
   
-  {% if site.google_ad_client and jekyll.environment == 'production' %}
-  {% include advertisements.html %}
-  {% endif %}
-
   <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
   {% if site.data.options.lato_font_load %}
     <link href='//fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
