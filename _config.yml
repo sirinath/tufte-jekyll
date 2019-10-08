@@ -15,8 +15,8 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'REA
 google_analytics: G-2PGJ0112G4
 # Google Ads
 google_ad_format: autorelaxed
-google_ad_client: 0000000000000000
-google_ad_slot: 00000000
+google_ad_client: 
+google_ad_slot: 
 post:
   template: _post.txt
   extension: md
