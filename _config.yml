@@ -11,6 +11,12 @@ permalink: /articles/:short_year/:title
 timezone: Asia/Colombo
 excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'UploadToGithub.Rakefile', 'README.md']
+# Google Analytics
+google_analytics: G-2PGJ0112G4
+# Google Ads
+google_ad_format: autorelaxed
+google_ad_client: 0000000000000000
+google_ad_slot: 00000000
 post:
   template: _post.txt
   extension: md
